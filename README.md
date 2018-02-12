@@ -1,2 +1,0 @@
-# HVSFrame
-HVS JavaFX Framework
