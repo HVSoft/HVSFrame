@@ -15,14 +15,12 @@ public class sample extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		
-	      Group group = new Group();  
-	      Scene scene = new Scene(group ,1280, 720);
+		  Windows win=new Windows();
+	      Group header = win.addHeader();
+	      Scene scene = win.createScene(header);
 	      scene.setFill(colors.appBackgroundColor());
 	      primaryStage.setTitle("Test");
 	      primaryStage.setScene(scene);
 	      primaryStage.show();
-	      
 	}
-
 }
