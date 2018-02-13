@@ -10,7 +10,7 @@ package com.HVSoft.FXframework;
 public class Texts {
 
 	//Header Properties
-	private static final String headerTextRight="HeaderTextAddingStuffToTest";
+	private static final String headerTextRight="HeaderTextAddingStuffToTestsasassas";
 
 	public String getHeaderTextRight() {
 		return headerTextRight;
