@@ -3,10 +3,11 @@ package com.HVSoft.FXframework;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class sample extends Application{
+	
+	Colors colors=new Colors();
 
 	public static void main(String[] args) {
 		launch(args);
@@ -17,7 +18,7 @@ public class sample extends Application{
 		
 	      Group group = new Group();  
 	      Scene scene = new Scene(group ,1280, 720);
-	      scene.setFill(Color.ALICEBLUE);
+	      scene.setFill(colors.appBackgroundColor());
 	      primaryStage.setTitle("Test");
 	      primaryStage.setScene(scene);
 	      primaryStage.show();
